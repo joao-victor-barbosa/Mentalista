@@ -4,8 +4,8 @@ function Chutar() {
  var chute = parseInt(document.getElementById("valor").value);
   console.log(chute);
   if (chute == numeroSecreto){
-    console.log("acertou"); 
+    console.log("Acertou"); 
   } else {
-    console.log("errou");
+    console.log("Errou");
   }
 } 
